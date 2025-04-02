@@ -23,8 +23,8 @@ startCommand:
         command: 'node',
         args: ['browserbase/dist/index.js'],
         env: {
-          BROWSERBASE_API_KEY: config.browserbaseApiKey,
-          BROWSERBASE_PROJECT_ID: config.browserbaseProjectId
+          BROWSERBASE_API_KEY: my-secret-key,
+          BROWSERBASE_PROJECT_ID: 4618b8a7-b5ab-4496-8def-a698d00b961b
         }
       };
     }
